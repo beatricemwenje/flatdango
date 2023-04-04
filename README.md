@@ -3,13 +3,13 @@
 #Introduction
 For this challenge, I'll be working on Flatdango - an application that allows a user to purchase movie tickets from the theater.
 
-#Requirements
+# Requirements
 For this project, you must:
 
  1: Have a well-written README.md file.
 2: Fetch data from a local server.
 
-#Setup
+# Setup
 Run this command to get the backend started:
 
 json-server --watch db.json 
@@ -23,7 +23,7 @@ Write your code in the src/index.js file.
 
 The base URL for your API will be: http://localhost:3000.
 
-#Core Deliverables
+# Core Deliverables
 As a user, I can:
 
 See the first movie's details, including its poster, title, runtime, showtime, and available tickets when the page loads. The number of available tickets will need to be derived by subtracting the number of tickets_sold from the theater's capacity. You will need to make a GET request to the following endpoint to retrieve the film data:
